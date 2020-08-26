@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	int i,j,c[3][3];
+	printf("Enter 9 numbers(press enter after every number):\n");
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			scanf("%d",&c[i][j]);
+		}
+	}
+	printf("the values entered are:\n");
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			printf("%d\t",c[i][j]);
+		}
+		printf("\n");
+	}
+	return 0;
+}

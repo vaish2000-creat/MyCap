@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,x;
+	printf("Enter two nos.(with a space in between):");
+	scanf("%d %d",&a,&b);
+	printf("two nos. are:%d %d\n",a,b);
+	x=a;
+	a=b;
+	b=x;
+	printf("after swaping:%d %d",a,b);
+	
+	return 0;
+}
